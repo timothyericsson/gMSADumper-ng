@@ -63,16 +63,13 @@ Only use this tool where you have authorization. Accessing or extracting credent
 
 ## Development status and TODO
 
-* This fork focuses on compatibility and pragmatic fixes for lab usage. The original project needs maintenance and updates and this repository does not represent a fully audited or hardened release.
 * TODO items for future contributors:
 
   * Add optional strict TLS validation and CA bundle support
   * Add an option to prefer UPN or NetBIOS bind styles
-  * Add unit tests and CI
   * Improve error messages and logging
-  * Add packaging and installation instructions
 
-Contributions are welcome. Open a pull request or an issue and include your test environment and the change you propose.
+Contributions are welcome.
 
 ## Previous Work and Acknowledgements
 Original project by @micahvandeusen
