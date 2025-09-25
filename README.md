@@ -74,10 +74,7 @@ Only use this tool where you have authorization. Accessing or extracting credent
 
 Contributions are welcome. Open a pull request or an issue and include your test environment and the change you propose.
 
-## Acknowledgements
+## Previous Work and Acknowledgements
+Original project by @micahvandeusen
 
-Based on ideas and code from Impacket and other community tools. See original projects for deeper references.
-
-## License
-
-Include whichever license you prefer for your fork. If you are unsure, consider a permissive license such as MIT or Apache 2.0.
+Uses Impacket structures and ideas from community tools
