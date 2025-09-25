@@ -1,5 +1,8 @@
 # gMSADumper-NG
 
+## tl;dr
+In modern AD you often need aes key instead of just NTLM. I noticed netexec --gmsa flag only grabs ntlm. gMSADumper grabs aes & ntlm, but OG tool didn't have fallback auth methods and caused some labs to fail with the tool. I made a patch for fallback auth and opened a PR and made this new repo for future changes
+
 ## Description
 
 gMSADumper-NG parses and prints managed service account password blobs (msDS-ManagedPassword) that the authenticated user can read. The tool will try multiple LDAP bind methods automatically to handle a variety of domain controller configurations.
