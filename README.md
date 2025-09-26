@@ -1,4 +1,4 @@
-# gMSADumper-NG
+# gMSADumper-ng
 
 ## tl;dr
 In modern AD you often need aes key instead of just NTLM. I noticed netexec --gmsa flag only grabs ntlm. gMSADumper grabs aes & ntlm, but OG tool didn't have fallback ldap bind methods and caused some labs to fail with the tool. I made a patch for fallback auth and opened a PR and made this new repo for future changes
